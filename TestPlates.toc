@@ -1,0 +1,7 @@
+## Interface: 50300
+## Title: |cff0099CCTest|rPlates
+## Notes: Test the default nameplates
+## Author: Rainrider
+## Version: 1.0
+
+TestPlates.lua
