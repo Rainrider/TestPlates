@@ -13,8 +13,8 @@ local ModPlate = function(self, frameName)
 	local barFrame, nameFrame = self:GetChildren()
 	local _, _, highlight = barFrame:GetRegions()
 	self.highlight = highlight
----[[
-	local bg = self:CreateTexture(nil, highlight:GetDrawLayer())
+--[[
+	local bg = self:CreateTexture(nil, (highlight:GetDrawLayer()))
 	bg:SetPoint(highlight:GetPoint(1))
 	bg:SetPoint(highlight:GetPoint(2))
 	bg:SetTexture(highlight:GetTexture())
